@@ -1,0 +1,52 @@
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+$navbar-color: black;
+$navbar-hover-color: $blue;
+$navbar-font-family: $header-font;
+$navbar-bg: transparent;
+
+/* -------------------------------------
+ * Box model
+ * ------------------------------------- */
+$navbar-height: 50px;
+$navbar-vertical-padding: 5px;
+$navbar-horizontal-padding: 20px;
+$navbar-border-bottom-width: 0;
+$navbar-border-bottom-color: grey;
+
+/* -------------------------------------
+ * Navbar button
+ * ------------------------------------- */
+$navbar-btn-height: 35px;
+$navbar-btn-bg: $blue;
+$navbar-btn-color: white;
+$navbar-btn-horizontal-padding: 10px;
+$navbar-btn-radius: 5px;
+$navbar-hover-bg: $red;
+
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+$navbar-profile-radius: 50%;
+$navbar-profile-border-color: white;
+$navbar-profile-border-width: 2px;
+
+/* -------------------------------------
+ * SCSS code
+ * ------------------------------------- */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-nav > li{
+  display: inline-block;
+  float: none;
+}
+
+ul.navbar-nav{
+  text-align: center;
+  float: none;
+}
+
